@@ -4,63 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make a cool first webpage</title>
-    <style>
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        .back-home {
-            margin-top: 20px;
-            display: inline-block;
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .back-home:hover {
-            background-color: #0056b3;
-        }
-        aside {
-            background-color: #f9f9f9;
-            border-left: 4px solid #007bff;
-            padding: 15px;
-            margin: 20px 0;
-            font-style: italic;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            gap: 15px;
-        }
-        nav ul li {
-            display: inline;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #007bff;
-            font-weight: bold;
-        }
-        nav ul li a:hover {
-            color: #0056b3;
-        }
-        footer {
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-            border-top: 2px solid #007bff;
-        }
-        footer a {
-            text-decoration: none;
-            color: #007bff;
-        }
-        footer a:hover {
-            color: #0056b3;
-        }
-    </style>
+    <link href="base.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -93,7 +38,7 @@
     
                 <h2>Back to Homepage</h2>
                 <p>If you'd like to return to the main homepage, click the link below:</p>
-                <a href="index.html">Go to indexpage</a>
+                <a href="tweets.html">Go to Tweetpage</a>
     
                 <h2>Benefits of Learning HTML</h2>
                 <h3>Essential for Web Development</h3>
@@ -107,6 +52,38 @@
                 <a href="https://www.google.com" target="_blank">
                     <img src="img/boliviainteligente-z7ICBEMUJfw-unsplash.jpg" alt="Google img">
                 </a>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>25</td>
+                            <td>USA</td>
+                        </tr>
+                        <tr>
+                            <td>Emily</td>
+                            <td>28</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <td>Michael</td>
+                            <td>32</td>
+                            <td>Australia</td>
+                        </tr>
+                        <tr>
+                            <td>Sophia</td>
+                            <td>21</td>
+                            <td>UK</td>
+                        </tr>
+                    </tbody>
+                </table>
             </article>
 
             <aside>
